@@ -4,6 +4,7 @@ window.SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecogn
 
 const recognition = new window.SpeechRecognition();
 recognition.interimResults = true;
+recognition.continuous = true;
 
 let p = document.createElement('p');
 
